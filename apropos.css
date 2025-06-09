@@ -1,0 +1,125 @@
+
+body {
+  background: url("bg-apropos.png") ;
+width: 100%;
+}
+
+
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Retarder chaque élément */
+.delay-1 { animation-delay: 0.3s; }
+.delay-2 { animation-delay: 1s; }
+.delay-3 { animation-delay: 1.2s; }
+.delay-4 { animation-delay: 1.5s; }
+.delay-5 { animation-delay: 1.9s; }
+.delay-6 { animation-delay: 2s; }
+.delay-7 { animation-delay: 2.5s; }
+
+
+h1{font-size: 60px;
+color:#feb883};
+
+
+.button {
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: rgb(19, 62, 154);
+  color:white;
+}
+#boutons {
+  display: flex;
+  flex-direction: column; /* disposition verticale */
+  align-items: center;     /* centrage horizontal */
+  gap: 15px;               /* espace entre les boutons */
+  margin-top: 20px;
+}
+button#EnSavoirPlus{font-size: 15px; padding:10px;margin:10px }
+button#Competenses{font-size: 15px; padding:10px;margin:10px }
+/* Section cachée par défaut */
+.intro-competences {
+  font-size: 18px;
+  margin: 20px auto;
+  max-width: 900px;
+  color: #f1f1f1;
+  line-height: 1.6;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+
+.competences-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.competence-card {
+  background-color: #f9f9ff;
+  color: #333;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.3s;
+}
+
+.competence-card:hover {
+  transform: translateY(-5px);
+}
+
+.competence-card h3 {
+  font-size: 1.2em;
+  color: rgb(19, 62, 154);
+  margin-bottom: 10px;
+}
+
+.competence-card ul {
+  list-style: none;
+  padding-left: 0;
+  line-height: 1.6;
+}
+
+.competence-card ul li::before {
+  content: "✓";
+  color: rgb(19, 62, 154);
+  margin-right: 8px;
+}
+.section-supplementaire1{background-color: #333;}
+.button-telecharger {
+  display: inline-block;
+  font-size: 15px;
+  padding: 10px 20px;
+  margin: 10px;
+  color: white;
+  background-color: rgb(19, 62, 154);
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button-telecharger:hover {
+  background-color: rgb(19, 62, 154);
+}
+#cv {
+  display: flex;
+  flex-direction: column; /* disposition verticale */
+  align-items: center;     /* centrage horizontal */
+       /* espace entre les boutons */
+  margin-top: 20px;
+}

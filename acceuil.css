@@ -1,0 +1,96 @@
+*{ margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("image et video/STUDIOS DE Bellevue.png") ;
+
+}
+main{margin-top: 120px;}
+p{color:#f1d4ae;
+font-size: 25px;
+  display: flex;
+  flex-direction: column;
+ /* centre horizontalement */
+  /* centre verticalement */
+  text-align: center; 
+  margin:5px 200px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+ /* centre horizontalement */
+  /* centre verticalement */
+  text-align: center;
+}
+
+.container h1{
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+   font-weight:800px;
+    font-size:80px;
+    margin-top:0px;
+   
+    display: inline-block; /* important pour que le fond suive le texte */
+    padding: 50px;
+    border-radius: 10px;
+     border-radius: 50%;
+      background: transparent;
+      text-shadow: 0 0 30px rgba(236, 136, 121, 0.728),
+                  0 0 60px rgba(108, 133, 202, 0.68),
+                  0 0 90px rgba(171, 59, 42, 0.927);
+     
+      animation: pulse 2s infinite;
+}@keyframes pulse {
+      0%, 100% {
+        text-shadow: 0 0 30px rgba(51, 6, 62, 0.751),
+                    0 0 60px rgb(181, 41, 76),
+                    0 0 90px rgba(27, 54, 9, 0.68);
+      }
+      50% {
+        text-shadow: 0 0 40px rgba(49, 14, 225, 0.938),
+                    0 0 80px rgba(8, 18, 66, 0.868),
+                    0 0 100px rgba(189, 33, 66, 0.906);
+      }
+    }
+
+h2{
+font-size: 30px; 
+color:rgb(19, 62, 154);
+ 
+  }
+.img{margin:0;
+width: 100%;
+ height: 100vh;
+background-size: cover; 
+min-height: 100vh;
+backdrop-filter: blur(3px);
+}
+.icon {
+  height: 20px;     
+  width: 20px;    
+  }
+.button {
+  display: flex;
+  background-color:  #676666;
+  color: white;
+  border: none;
+  padding: 10px ;
+  margin: 10px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: rgb(30, 66, 145);
+  color:white;
+}
+#boutons {
+  display: flex;
+  flex-direction: column; /* disposition verticale */
+  align-items: center;     /* centrage horizontal */
+  gap: 15px;               /* espace entre les boutons */
+  margin-top: 20px;
+}

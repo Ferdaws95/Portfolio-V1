@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <link href="apropos.css" rel="stylesheet"/>
+      <link href="header.css" rel="stylesheet"/>
+</head>
+<body>
+  
+<header>
+  <div id="menu"></div>
+</header>
+<main>  
+  <section class="section">   
+                <div class="container2 fade-in-up delay-1"></div>
+  
+  <h2 class="fade-in-up delay-2" style="font-size: 40px;color:rgb(19, 62, 154);display:flex ;justify-content:center; ">Développeuse Web Full Stack</h2>
+  <div style="font-size: 20px;color:hsl(240, 40%, 98%); width:80%">
+    <p class="text-line fade-in-up delay-4" >🎓 Ingénieure en génie électromécanique de formation, j’ai acquis une solide expérience dans l’industrie à travers des projets d’automatisation, de programmation embarquée (STM32, Arduino, Raspberry Pi), de conception mécanique (CATIA, SolidWorks) et de développement logiciel (Python, C, VHDL).</p>
+    <p class="text-line fade-in-up delay-5" >💡 Animée par une passion pour la technologie et l’innovation, j’ai choisi de me réorienter vers le développement web, un domaine créatif, évolutif et en constante transformation.</p>
+    <p class="text-line fade-in-up delay-6" >🚀 Aujourd’hui, je me forme avec ambition au métier de développeuse full-stack, en mobilisant mes compétences techniques, mon esprit analytique et ma capacité d’adaptation pour créer des solutions digitales à fort impact.
+    </p>
+  </div>
+  <div id="boutons" class="fade-in-up delay-7">
+<button id="EnSavoirPlus">En savoir plus</button>
+<button id="Competenses">Voir mes compétences</button> <!-- déplace ici -->
+  </div>
+</section>  
+
+<section id="section-supplementaire" class="section" style="display: none;">
+  <div style="font-size: 20px; color: hsl(240, 40%, 98%); width: 80%">
+  <h2 style="font-size: 40px;color:rgb(19, 62, 154); ">Mon petit plus</h2> 
+    <p style="font-size: 20px;color:hsl(240, 40%, 98%); width:90%" >Grâce à mon parcours en ingénierie électromécanique et à ma formation en développement web, j’ai développé un profil polyvalent, alliant rigueur scientifique et créativité numérique. Je maîtrise des langages et outils variés, allant du développement front-end à la programmation back-end  sans oublier mon aisance avec des logiciels techniques .
+Curieuse, réactive et autonome, je suis pleinement engagée dans ma reconversion et prête à contribuer activement en entreprise. Mon adaptabilité, ma capacité d’apprentissage rapide et mon esprit d’analyse sont des atouts que je mets au service de chaque projet avec enthousiasme et professionnalisme.</p>
+ </div>
+ 
+ </section>
+
+<section id="section-supplementaire1" class="section" style="display: none;">
+    <div style="font-size: 20px;color:hsl(240, 40%, 98%); width:80%">
+  <h2 style="font-size: 40px;color:rgb(19, 62, 154); ">Mes compétenses </h2> 
+<p class="intro-competences">
+  À travers ma reconversion vers le développement web, je mobilise un ensemble de compétences techniques, scientifiques et créatives acquises au fil de mon parcours en ingénierie et renforcées par ma formation actuelle. Cette diversité me permet d’aborder les projets avec une vision globale, mêlant rigueur, adaptabilité et innovation.
+</p>
+
+    <label style ="margin :20px;"for="filtre">Filtrer par catégorie :</label>
+    <select  style ="margin :20px; padding:5px" id="filtre">
+      <option value="toutes">Toutes</option>
+      <option value="web" >Développement web :</option>
+      <option value="Techniques">Programmation & Logiciels Techniques</option>
+    </select>
+<div id="competences-list" class="competences-container"></div>
+<div id="cv">
+  <p>Veuillez voir mon CV pour découvrir plus mon parcours.</p>
+  <a href="CV.Ferdaws OUESLATI.pdf" target="_blank" class="button-telecharger">
+    Ouvrir mon CV 
+  </a>
+</div>
+
+    </div>
+  </section>
+
+
+</section>
+<script src="header.js"></script>
+<script src="apropos.js"></script>
+</main>     
+</body>
+</html>

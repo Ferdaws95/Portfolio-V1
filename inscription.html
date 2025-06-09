@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="inscription.css" rel="stylesheet"/>
+    <link href="header.css" rel="stylesheet"/>
+
+</head>
+<body>
+    <header>
+         <div id="menu"></div>
+    </header>
+    
+   <!-- Formulaire d'inscription -->
+    <h1 >Inscrivez-vous pour recevoir mes actualités !</h1>
+    <main>
+        <div id="content" >
+            <button class="button" id="Google">
+                <img src="google_icon.png" class="icon" alt="Google icon">   S’inscrire avec Google
+            </button>
+            <button class="button" id="Facebook">
+                <img src="facebook_icon.png" class="icon" alt="Facebook icon">   S’inscrire avec Facebook
+            </button>
+            <form id="inscrip">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required><br>
+                <label for="pwd">Mot de passe:</label>
+                <input type="password" id="pwd" name="pwd" required><br>
+                <input  type="submit" value="Créer" id="btnCreer" >
+            </form>
+        </div>
+    </main>    
+    <div id="popupBienvenue" class="popup hidden">
+  <div class="popup-content">
+    <p>Attendez quelques instants...!</p>
+    <div class="loader"></div>
+  </div>
+</div>
+
+
+  
+    <footer></footer> 
+<script src="header.js"></script> 
+<script src="inscription.js"></script>   
+</body>
+</html>
