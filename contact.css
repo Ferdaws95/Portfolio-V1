@@ -1,0 +1,114 @@
+body{
+background: linear-gradient(100deg,#070620, #6968a9, #aa9579,hsl(240, 40%, 98%)); color:white}
+form{ max-height:900px ;
+        max-width: 800px;
+        margin: 20px auto 0 auto;
+        font-size: 1em;
+        border: solid;
+        padding:0 20px;
+        
+}
+input[type="email"] {
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="email"]:invalid {
+    border-color: #ff0000;
+    background-color: #ffbfbf;
+  }
+  input[type="text"] {
+    cursor: pointer;
+    transition: border-color 0.3s ease; 
+   
+  }
+ 
+  input[type="text"]:invalid {
+    border-color: #ff0000;
+    background-color: #ffbfbf;
+    
+  }
+  input[type="tel"] {
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+    
+  }
+  
+  input[type="tel"]:invalid {
+      border-color: #ff0000;
+   
+  }
+  
+ 
+input,textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #f3f3f3;
+    
+  }
+  input,label{font-size: large;}
+  input[type="submit"] {
+    background-color: #525252;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }form{
+margin: 20px auto ;
+font-size: 1em;
+}
+
+
+input,textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+ 
+}
+  
+input,label{font-size: large;}
+input[type="submit"] {
+    background-color: #d3bb9c;
+    color: rgb(0, 0, 0);
+    border-color:black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: auto;
+    margin-top: 20px; 
+    
+ }
+  
+input[type="submit"]:hover {
+background-color: #f1d4ae;
+}
+
+input[type="email"] {
+cursor: pointer;
+transition: border-color 0.3s ease;
+}
+  
+input[type="email"]:invalid {
+background-color:white;
+}
+input[type="text"] {
+cursor: pointer;
+transition: border-color 0.3s ease; 
+}
+
+input[type="text"]:invalid {
+background-color: white;
+}
+
+
+ 
+ 

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <link href="contact.css" rel="stylesheet"/>
+      <link href="header.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+  <div id="menu"></div>
+</header>
+    <p>Veuillez remplir ce formulaire svp :</p>
+    <form id="myForm" novalidate >
+      <label for="name">Nom:</label>
+      <input type="text" id="name" required>
+      <span id="nameError" style="color:rgb(255, 0, 0) ; display:none;">Le nom est requis, veuillez saisir un nom de 2 lettres au moins </span>
+      <br><br><br>    
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <span id="emailError" style="color:red; display:none;">Un email correct est requis , veuillez saisir un email de la forme xxxx@xxx.xx</span>
+      <br><br><br>
+      <label for="tel">Tél:</label>
+      <input type="tel" id="tel" required>
+    <span id="telError" style="color:red; display:none;">Le téléphone est requis, veuillez saisir votre num de 10 chiffre</span>
+      <br><br>
+      <label for="message">Votre message :</label>
+      <textarea name="message" rows="5" cols="40"
+      placeholder="Écrivez votre message ici..."></textarea>
+      <br><br><br>
+      <input type="submit" value="Envoyer">
+      
+        </form>
+  <script src="header.js"></script>
+<script src="contact.js"></script>      
+</body>
+</html>
