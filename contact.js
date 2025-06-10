@@ -37,10 +37,10 @@
         } else {
             alert("Formulaire envoyé avec succès !");
             document.getElementById('myForm').reset();
-        }
+        }*/
     });  
 
-*/    // il faut choisir soit le popop soit le mmsg validation
+    // il faut choisir soit le popop soit le mmsg validation
 const boutonEnvoyer = document.getElementById("btnEnvoyer");
 const popupRemerciment = document.getElementById("popupRemerciment");
     if (boutonEnvoyer) {
