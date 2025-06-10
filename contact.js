@@ -30,7 +30,7 @@
         } else {
             telError.style.display = 'none';
         }
-
+/*
         // Si un champ invalide, empêche l'envoi
         if (!isValid) {
             event.preventDefault();
@@ -38,4 +38,17 @@
             alert("Formulaire envoyé avec succès !");
             document.getElementById('myForm').reset();
         }
-    });
+    });  
+
+*/    // il faut choisir soit le popop soit le mmsg validation
+const boutonEnvoyer = document.getElementById("btnEnvoyer");
+const popupRemerciment = document.getElementById("popupRemerciment");
+    if (boutonEnvoyer) {
+  boutonEnvoyer.addEventListener("click", (e) => {
+    e.preventDefault(); // Empêche la soumission du formulaire
+    popupRemerciment.classList.remove("hidden");
+    setTimeout(() => {
+      navigateTo("acceuil.html");
+    }, 2000);
+  });
+}
