@@ -3,7 +3,16 @@ body {
   background: url("bg-apropos.png") ;
 width: 100%;
 }
+html, body {
+  height: 100%;
+  margin: 0;
+}
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
 .fade-in-up {
   opacity: 0;
@@ -123,3 +132,9 @@ button#Competenses{font-size: 15px; padding:10px;margin:10px }
        /* espace entre les boutons */
   margin-top: 20px;
 }
+footer{   display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.416);
+  padding: 1em 0;
+color:white;}
