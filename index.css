@@ -4,6 +4,7 @@
 
 body {
   background: url("image et video/STUDIOS DE Bellevue.png") ;
+  min-height: 100vh;
 
 }
 main{margin-top: 120px;}

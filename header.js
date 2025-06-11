@@ -1,7 +1,7 @@
 const menuHTML = `
 <nav id="navigation">
   <ul class="menu">
-    <li class="menuitem"><a href="acceuil.html">Accueil</a></li>
+    <li class="menuitem"><a href="index.html">Accueil</a></li>
     <li class="menuitem"><a href="apropos.html">Apropos</a></li>
     <li class="menuitem"><a href="projets.html">Portfolio</a></li>
     <li class="menuitem cta"><a href="contact.html">Contact</a></li>
